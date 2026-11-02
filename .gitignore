@@ -1,0 +1,14 @@
+# Dependencies
+node_modules/
+
+# Secrets: commit .env.example only
+.env
+.env.*
+!.env.example
+
+# OS/editor files
+npm-debug.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
